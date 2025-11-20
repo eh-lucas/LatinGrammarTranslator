@@ -1,0 +1,5 @@
+flask==3.0.0
+beautifulsoup4==4.12.2
+lxml
+pydantic
+langdetect==1.0.9

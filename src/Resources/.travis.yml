@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- 13.2
+deploy:
+  provider: s3
+  cleanup: true
+  skip_cleanup: true
+  access_key_id: AKIAZIUCQ6FCCBH6336J
+  secret_access_key:
+    secure: RPo7Y5OUbt9AJ1ApDTPtQkW2bgLWe8tGfrj+hHeBgw0KOUKAdwpMpF7/EV+KvHA8N/P24nwc42LdX5pTP//SjVO7VvzWO1KCw94yrjsUfKE5W+Uk+/380WaXtfqVQRVfZAS/JySN2XKpuanBq+T6AMfTdanlPkmsgWN21MhKk4cmbHqO0DnA5KnTUpdnP0F4JNNJd9G9fUuHktcMHkzQnRZltLspi7RlgeAYNvI6dYgaqX7Ob45zgb5yFzAxXByb21gl3Bis3qBSjPIMP4FR+VeIMtGC7wRiUQQiUy1s5sQwtoXoT8yXyI2mv6XSTRUmo5PHbDXzUpTANuieCdmWnnxTFirL9soApzMELzI019+/SOHepwEQRcwX6WOlXMMgj34BhyQuLUij+H3eaKCMqmCaj14+6kCTOi4yu3j9bxoqZ4ZDaqCR1IJaqgZxxZ8ZdpT4z9s2g0V1kt3TbGuTjNeP8pdbnYTIwu0mYe2T1Z9IYpxElcBuWZWoTnGGPzNHrhzdn1Xkm+0QzoZMwwr4OyLFOTcIUN85fgOGM2sKdWtvZ/wBmO1ShQLCcYFIFHNpWCo6FzcYGWGKFcU4fCb3yUxJv3bnX6o0iCL9imyWB6D4fhuv1D+NKRvwpBo3aBMNbUhp8BMWWJEEweVkC6oUtA6Q9+Vvxb/akQ/H4SPbIoM=
+  bucket: alpheios-grammars
+  region: us-east-2
+  local_dir: "."
+  upload_dir: allen-greenough
+  acl: public_read
+  cache_control: max-age=604800
+  on:
+    repo: alpheios-project/grammar-allen-greenough
+    branch: production
