@@ -1,7 +1,7 @@
 """
 Parser HTML robusto para documentos da gramática latina Allen & Greenough
 """
-from bs4 import BeautifulSoup, Tag, NavigableString
+from bs4 import BeautifulSoup, Tag, NavigableString, Comment
 from typing import List, Optional, Dict, Tuple
 import re
 from models import (
@@ -76,6 +76,10 @@ class LatinGrammarParser:
         footnotes = {}
 
         for child in body.children:
+            # Ignorar comentários HTML
+            if isinstance(child, Comment):
+                continue
+
             if isinstance(child, Tag):
                 parsed = self._parse_element(child)
                 if parsed:
@@ -175,6 +179,10 @@ class LatinGrammarParser:
             node: ParsedNode para preencher
         """
         for child in element.children:
+            # Ignorar comentários HTML
+            if isinstance(child, Comment):
+                continue
+
             if isinstance(child, NavigableString):
                 # Texto direto
                 text = str(child).strip()
@@ -217,6 +225,10 @@ class LatinGrammarParser:
         # Processar conteúdo do elemento inline
         text_content = []
         for child in element.children:
+            # Ignorar comentários HTML
+            if isinstance(child, Comment):
+                continue
+
             if isinstance(child, NavigableString):
                 text_content.append(str(child))
             elif isinstance(child, Tag):
