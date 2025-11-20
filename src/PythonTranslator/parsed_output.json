@@ -1,0 +1,2104 @@
+{
+  "title": "New Latin Grammar",
+  "encoding": "utf-8",
+  "nodes": [
+    {
+      "node_type": "div",
+      "node_id": "page-wrapper",
+      "text_segments": [
+        {
+          "text": "<a href=\"/grammar/latin/credits-and-reuse\">Credits and Reuse</a><a href=\"/grammar/latin/classification-sounds\">Classification of Sounds</a>",
+          "text_type": "english",
+          "formatting": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "font_size": null,
+            "font_family": null,
+            "color": null,
+            "padding_left": null,
+            "text_align": null
+          },
+          "html_class": null
+        }
+      ],
+      "attributes": {
+        "id": "page-wrapper"
+      },
+      "inline_style": null,
+      "children": [
+        {
+          "node_type": "h2",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "ALPHABET",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {},
+          "inline_style": null,
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "p",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "1.",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "The Latin Alphabet is the same as the English (which is in fact borrowed from it) except that it does not contain",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "J",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ",",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "U",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ", and",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "W",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ".",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {},
+          "inline_style": null,
+          "children": [],
+          "section_number": "1",
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "p",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "Note 1—",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": true,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": "noteLabel"
+            },
+            {
+              "text": "The Latin alphabet was borrowed in very early times from a Greek alphabet (though not from that most\n        familiar to us) and did not at first contain the letters G and Y. It consisted of capital letters only, and the small letters with which we are familiar did not come into general use until the close of the\n        eighth century A.D.",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {},
+          "inline_style": null,
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "p",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "Note 2—",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": true,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": "noteLabel"
+            },
+            {
+              "text": "The Latin names of the consonants were as follows: B, be (pronounced\n        bay); C, ce (pronounced kay); D, de (day); F, ef; G, ge (gay); H,\n        ha; K, ka; L, el; M, em; N, en; P, pe (pay); Q, qu (koo);\n          R, er; S, es; T, t (tay); X, ix; Z, zeta (the Greek name, pronounced dzayta).\n          The sound of each vowel was used as its name.",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {},
+          "inline_style": null,
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "p",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "a.",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": true,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "The character",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "C",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "originally meant G, a value always retained in the abbreviations",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "C",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ". (for",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "Gāius",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ") and",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "Cn",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ". (for",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "Gnaeus",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ").",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {
+            "style": "padding-left: 30px;"
+          },
+          "inline_style": "padding-left: 30px;",
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "p",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "Note—",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": true,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": "noteLabel"
+            },
+            {
+              "text": "In early Latin C came also to be used for K in a\n        few words, and K disappeared except before a in a few words, as Kal. (Kalendae), Karthāgō. Thus there was no distinction in writing between the sounds of G and\n        K. Later this defect was remedied by forming (from C) the new character G. This took the alphabetic place formerly occupied by Z, which had gone out of use. In Cicero's\n        time (see N. D. 2.93), Y (originally a form of V) and Z were introduced from the ordinary Greek alphabet to represent sounds in words derived from the Greek, and\n        they were put at the end of the Latin alphabet.",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {
+            "style": "padding-left: 30px;"
+          },
+          "inline_style": "padding-left: 30px;",
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "p",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "b.",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "I",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "and",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "V",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "were used both as vowels and as consonants (see",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "§ 5",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ").  In this\n      grammar,",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "I",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "is used for both vowel and consonant",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "i",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ",",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "U",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "for vowel",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "u",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ", and",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "V",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "for\n      consonant",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "u",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ":",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "iūs",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ",",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "vir",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ",",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "iuvenis",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ".",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {
+            "style": "padding-left: 30px;"
+          },
+          "inline_style": "padding-left: 30px;",
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "p",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "Note—",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "V originally denoted\n        the vowel sound u (oo), and F stood for the sound of our consonant w. When F acquired the value of our f, V came to be used for the\n        sound of w as well as for the vowel.",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {
+            "style": "padding-left: 30px;"
+          },
+          "inline_style": "padding-left: 30px;",
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "blockquote",
+          "node_id": null,
+          "text_segments": [],
+          "attributes": {},
+          "inline_style": null,
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "div",
+          "node_id": "file-3650",
+          "text_segments": [
+            {
+              "text": "<h2 class=\"element-invisible\"><a href=\"/file/3650\">The Latin Alphabet - Consonant Pronunciation</a></h2>",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {
+            "class": "file file-video file-video-youtube contextual-links-region",
+            "id": "file-3650"
+          },
+          "inline_style": null,
+          "children": [
+            {
+              "node_type": "div",
+              "node_id": null,
+              "text_segments": [],
+              "attributes": {
+                "class": "content"
+              },
+              "inline_style": null,
+              "children": [
+                {
+                  "node_type": "div",
+                  "node_id": null,
+                  "text_segments": [
+                    {
+                      "text": "iframe name=\"The Latin Alphabet - Consonant Pronunciation\" width=\"200\" height=\"180\" title=\"The Latin Alphabet - Consonant Pronunciation\" class=\"media-youtube-player\"\n            src=\"https://www.youtube.com/embed/0oWWOJW3948?wmode=opaque&amp;controls=\" frameborder=\"0\" allowfullscreen=\"\">Video of The Latin Alphabet - Consonant Pronunciation</iframe",
+                      "text_type": "english",
+                      "formatting": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "font_size": null,
+                        "font_family": null,
+                        "color": null,
+                        "padding_left": null,
+                        "text_align": null
+                      },
+                      "html_class": null
+                    }
+                  ],
+                  "attributes": {
+                    "class": "media-youtube-video media-youtube-1"
+                  },
+                  "inline_style": null,
+                  "children": [],
+                  "section_number": null,
+                  "is_footnote": false,
+                  "footnote_id": null,
+                  "has_cross_reference": false
+                }
+              ],
+              "section_number": null,
+              "is_footnote": false,
+              "footnote_id": null,
+              "has_cross_reference": false
+            }
+          ],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        }
+      ],
+      "section_number": "1",
+      "is_footnote": false,
+      "footnote_id": null,
+      "has_cross_reference": false
+    }
+  ],
+  "sections": {
+    "page-wrapper": {
+      "node_type": "div",
+      "node_id": "page-wrapper",
+      "text_segments": [
+        {
+          "text": "<a href=\"/grammar/latin/credits-and-reuse\">Credits and Reuse</a><a href=\"/grammar/latin/classification-sounds\">Classification of Sounds</a>",
+          "text_type": "english",
+          "formatting": {
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "font_size": null,
+            "font_family": null,
+            "color": null,
+            "padding_left": null,
+            "text_align": null
+          },
+          "html_class": null
+        }
+      ],
+      "attributes": {
+        "id": "page-wrapper"
+      },
+      "inline_style": null,
+      "children": [
+        {
+          "node_type": "h2",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "ALPHABET",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {},
+          "inline_style": null,
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "p",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "1.",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "The Latin Alphabet is the same as the English (which is in fact borrowed from it) except that it does not contain",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "J",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ",",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "U",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ", and",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "W",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ".",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {},
+          "inline_style": null,
+          "children": [],
+          "section_number": "1",
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "p",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "Note 1—",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": true,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": "noteLabel"
+            },
+            {
+              "text": "The Latin alphabet was borrowed in very early times from a Greek alphabet (though not from that most\n        familiar to us) and did not at first contain the letters G and Y. It consisted of capital letters only, and the small letters with which we are familiar did not come into general use until the close of the\n        eighth century A.D.",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {},
+          "inline_style": null,
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "p",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "Note 2—",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": true,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": "noteLabel"
+            },
+            {
+              "text": "The Latin names of the consonants were as follows: B, be (pronounced\n        bay); C, ce (pronounced kay); D, de (day); F, ef; G, ge (gay); H,\n        ha; K, ka; L, el; M, em; N, en; P, pe (pay); Q, qu (koo);\n          R, er; S, es; T, t (tay); X, ix; Z, zeta (the Greek name, pronounced dzayta).\n          The sound of each vowel was used as its name.",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {},
+          "inline_style": null,
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "p",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "a.",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": true,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "The character",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "C",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "originally meant G, a value always retained in the abbreviations",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "C",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ". (for",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "Gāius",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ") and",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "Cn",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ". (for",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "Gnaeus",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ").",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {
+            "style": "padding-left: 30px;"
+          },
+          "inline_style": "padding-left: 30px;",
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "p",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "Note—",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": true,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": "noteLabel"
+            },
+            {
+              "text": "In early Latin C came also to be used for K in a\n        few words, and K disappeared except before a in a few words, as Kal. (Kalendae), Karthāgō. Thus there was no distinction in writing between the sounds of G and\n        K. Later this defect was remedied by forming (from C) the new character G. This took the alphabetic place formerly occupied by Z, which had gone out of use. In Cicero's\n        time (see N. D. 2.93), Y (originally a form of V) and Z were introduced from the ordinary Greek alphabet to represent sounds in words derived from the Greek, and\n        they were put at the end of the Latin alphabet.",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {
+            "style": "padding-left: 30px;"
+          },
+          "inline_style": "padding-left: 30px;",
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "p",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "b.",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "I",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "and",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "V",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "were used both as vowels and as consonants (see",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "§ 5",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ").  In this\n      grammar,",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "I",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "is used for both vowel and consonant",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "i",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ",",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "U",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "for vowel",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "u",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ", and",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "V",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "for\n      consonant",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "u",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ":",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "iūs",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ",",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "vir",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ",",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "iuvenis",
+              "text_type": "english",
+              "formatting": {
+                "bold": true,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": ".",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": "30px",
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {
+            "style": "padding-left: 30px;"
+          },
+          "inline_style": "padding-left: 30px;",
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "p",
+          "node_id": null,
+          "text_segments": [
+            {
+              "text": "Note—",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            },
+            {
+              "text": "V originally denoted\n        the vowel sound u (oo), and F stood for the sound of our consonant w. When F acquired the value of our f, V came to be used for the\n        sound of w as well as for the vowel.",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {
+            "style": "padding-left: 30px;"
+          },
+          "inline_style": "padding-left: 30px;",
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "blockquote",
+          "node_id": null,
+          "text_segments": [],
+          "attributes": {},
+          "inline_style": null,
+          "children": [],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        },
+        {
+          "node_type": "div",
+          "node_id": "file-3650",
+          "text_segments": [
+            {
+              "text": "<h2 class=\"element-invisible\"><a href=\"/file/3650\">The Latin Alphabet - Consonant Pronunciation</a></h2>",
+              "text_type": "english",
+              "formatting": {
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "font_size": null,
+                "font_family": null,
+                "color": null,
+                "padding_left": null,
+                "text_align": null
+              },
+              "html_class": null
+            }
+          ],
+          "attributes": {
+            "class": "file file-video file-video-youtube contextual-links-region",
+            "id": "file-3650"
+          },
+          "inline_style": null,
+          "children": [
+            {
+              "node_type": "div",
+              "node_id": null,
+              "text_segments": [],
+              "attributes": {
+                "class": "content"
+              },
+              "inline_style": null,
+              "children": [
+                {
+                  "node_type": "div",
+                  "node_id": null,
+                  "text_segments": [
+                    {
+                      "text": "iframe name=\"The Latin Alphabet - Consonant Pronunciation\" width=\"200\" height=\"180\" title=\"The Latin Alphabet - Consonant Pronunciation\" class=\"media-youtube-player\"\n            src=\"https://www.youtube.com/embed/0oWWOJW3948?wmode=opaque&amp;controls=\" frameborder=\"0\" allowfullscreen=\"\">Video of The Latin Alphabet - Consonant Pronunciation</iframe",
+                      "text_type": "english",
+                      "formatting": {
+                        "bold": false,
+                        "italic": false,
+                        "underline": false,
+                        "font_size": null,
+                        "font_family": null,
+                        "color": null,
+                        "padding_left": null,
+                        "text_align": null
+                      },
+                      "html_class": null
+                    }
+                  ],
+                  "attributes": {
+                    "class": "media-youtube-video media-youtube-1"
+                  },
+                  "inline_style": null,
+                  "children": [],
+                  "section_number": null,
+                  "is_footnote": false,
+                  "footnote_id": null,
+                  "has_cross_reference": false
+                }
+              ],
+              "section_number": null,
+              "is_footnote": false,
+              "footnote_id": null,
+              "has_cross_reference": false
+            }
+          ],
+          "section_number": null,
+          "is_footnote": false,
+          "footnote_id": null,
+          "has_cross_reference": false
+        }
+      ],
+      "section_number": "1",
+      "is_footnote": false,
+      "footnote_id": null,
+      "has_cross_reference": false
+    }
+  },
+  "footnotes": {},
+  "stats": {
+    "total_nodes": 13,
+    "text_segments": 57,
+    "latin_segments": 0,
+    "english_segments": 57,
+    "gloss_segments": 0,
+    "tables": 0,
+    "lists": 0
+  },
+  "original_filename": "alphabet.htm",
+  "css_file": "./site.css"
+}

@@ -3,3 +3,7 @@ beautifulsoup4==4.12.2
 lxml
 pydantic
 langdetect==1.0.9
+
+# AI Translation APIs
+google-generativeai>=0.3.0
+anthropic>=0.40.0
