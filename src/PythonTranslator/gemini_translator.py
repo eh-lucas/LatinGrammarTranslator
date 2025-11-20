@@ -14,7 +14,7 @@ class GeminiTranslator(TranslationStrategy):
     def __init__(
         self,
         api_key: str,
-        model_name: str = "gemini-1.5-flash",
+        model_name: str = "gemini-3-pro-preview",
         glossary: Optional[Dict[str, str]] = None
     ):
         """
@@ -22,7 +22,7 @@ class GeminiTranslator(TranslationStrategy):
 
         Args:
             api_key: Chave da API Gemini
-            model_name: Nome do modelo ('gemini-1.5-flash' ou 'gemini-1.5-pro')
+            model_name: Nome do modelo (padrão: 'gemini-3-pro-preview')
             glossary: Glossário customizado (usa padrão se None)
         """
         super().__init__(api_key, glossary)

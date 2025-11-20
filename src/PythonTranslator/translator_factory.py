@@ -40,7 +40,7 @@ class TranslatorFactory:
         provider = provider.lower()
 
         if provider == "gemini":
-            model = model_name or "gemini-1.5-flash"
+            model = model_name or "gemini-3-pro-preview"
             return GeminiTranslator(api_key, model, glossary)
 
         elif provider == "claude":
@@ -72,7 +72,7 @@ class TranslatorFactory:
             Dicionário {provedor: modelo_padrão}
         """
         return {
-            "gemini": "gemini-1.5-flash",
+            "gemini": "gemini-3-pro-preview",
             "claude": "claude-3-5-sonnet-20241022"
         }
 
@@ -91,8 +91,9 @@ class TranslatorFactory:
 
         if provider == "gemini":
             return [
+                "gemini-3-pro-preview",  # Modelo mais recente e poderoso
                 "gemini-1.5-flash",      # Mais rápido, grátis
-                "gemini-1.5-pro",        # Mais poderoso
+                "gemini-1.5-pro",        # Mais poderoso (versão anterior)
                 "gemini-2.0-flash-exp",  # Experimental
             ]
         elif provider == "claude":
