@@ -1,0 +1,16 @@
+# .NET
+src/Api/LatinGrammarTranslator/bin/
+src/Api/LatinGrammarTranslator/obj/
+src/Api/.vs/
+src/Api/*.user
+src/Api/*.suo
+
+# Python
+src/PythonTranslator/*.pyc
+src/PythonTranslator/__pycache__/
+
+# IDEs
+src/PythonTranslator/.vscode/
+src/Api/.vscode/
+src/PythonTranslator/.idea/
+src/Api/.idea/

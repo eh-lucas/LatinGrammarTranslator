@@ -1,0 +1,6 @@
+@LatinGrammarTranslator_HostAddress = http://localhost:5287
+
+GET {{LatinGrammarTranslator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
