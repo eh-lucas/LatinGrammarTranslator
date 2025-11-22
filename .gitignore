@@ -14,3 +14,16 @@ src/PythonTranslator/.vscode/
 src/Api/.vscode/
 src/PythonTranslator/.idea/
 src/Api/.idea/
+
+# Environment variables & secrets
+.env
+*.env
+!.env.example
+
+# Output files
+output/
+*.docx
+*.html
+
+# Docker
+docker-compose.override.yml

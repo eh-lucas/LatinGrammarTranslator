@@ -18,6 +18,10 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+// Configure Swagger
+app.UseSwagger();
+app.UseSwaggerUI();
+
 app.MapPost("/process", async (
     TranslationService translationService,
     HtmlService htmlService,

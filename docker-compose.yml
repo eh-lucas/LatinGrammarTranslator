@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  # Serviço Python - Parser e Tradutor
+  translator:
+    build:
+      context: ./src/PythonTranslator
+      dockerfile: Dockerfile
+    container_name: latin-translator
+    ports:
+      - "5001:5001"
+    environment:
+      - TRANSLATOR_PROVIDER=${TRANSLATOR_PROVIDER:-gemini}
+      - TRANSLATOR_API_KEY=${TRANSLATOR_API_KEY}
+      - TRANSLATOR_MODEL=${TRANSLATOR_MODEL:-}
+      - FLASK_ENV=production
+    volumes:
+      - ./src/PythonTranslator:/app
+      - ./output:/output
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - latin-network
+
+  # Serviço .NET - API e Geração de Word
+  api:
+    build:
+      context: ./src/Api
+      dockerfile: LatinGrammarTranslator/Dockerfile
+    container_name: latin-api
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+    depends_on:
+      - translator
+    volumes:
+      - ./output:/app/output
+      - ./src/Api/LatinGrammarTranslator/Themes:/app/Themes
+    restart: unless-stopped
+    networks:
+      - latin-network
+
+networks:
+  latin-network:
+    driver: bridge
+
+volumes:
+  output:
+    driver: local
