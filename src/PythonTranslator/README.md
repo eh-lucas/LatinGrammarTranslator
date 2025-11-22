@@ -92,6 +92,8 @@ TranslationStrategy (interface)
 4. API de IA traduz seção completa
    ↓
 5. Traduções aplicadas de volta ao documento
+   ↓
+6. Geração de HTML traduzido + documento Word
 ```
 
 ## 📁 Estrutura de Arquivos
@@ -105,8 +107,11 @@ PythonTranslator/
 ├── gemini_translator.py     # Implementação Gemini
 ├── claude_translator.py     # Implementação Claude
 ├── translator_factory.py    # Factory para criar tradutores
+├── html_generator.py        # Gerador de HTML traduzido
+├── word_generator.py        # Gerador de documentos Word
 ├── test_translation.py      # Script de teste
 ├── test_parser.py           # Teste do parser
+├── test_full_pipeline.py    # Pipeline completo (HTML→Tradução→HTML+Word)
 ├── app.py                   # API Flask
 └── requirements.txt         # Dependências
 ```
@@ -265,7 +270,8 @@ Claude: Depende do tier
 - [ ] Suporte a GPT-4/GPT-4 Turbo
 - [ ] Cache de traduções (evitar reprocessar)
 - [ ] Interface web para revisão
-- [ ] Geração de documento Word final
+- [x] Geração de HTML traduzido
+- [x] Geração de documento Word final
 - [ ] Batch processing otimizado
 - [ ] Métricas de qualidade
 

@@ -1,5 +1,5 @@
 """
-Teste do pipeline completo: HTML → Parser → Tradução → Word
+Teste do pipeline completo: HTML → Parser → Tradução → Word + HTML
 """
 import os
 import sys
@@ -7,6 +7,7 @@ from html_parser import LatinGrammarParser
 from translator_factory import TranslatorFactory
 from translation_strategy import SectionTranslator
 from word_generator import SimpleWordGenerator
+from html_generator import HtmlGenerator
 
 # Fix encoding para Windows
 if sys.platform == 'win32':
@@ -16,16 +17,18 @@ if sys.platform == 'win32':
 def full_pipeline_test(
     html_file: str,
     output_word: str,
+    output_html: str = None,
     provider: str = "gemini",
     api_key: str = None,
     skip_translation: bool = False
 ):
     """
-    Pipeline completo: HTML → Parser → Tradução → Word
+    Pipeline completo: HTML → Parser → Tradução → Word + HTML
 
     Args:
         html_file: Arquivo HTML de entrada
         output_word: Arquivo Word de saída (.docx)
+        output_html: Arquivo HTML de saída (.html) - se None, auto-gera o nome
         provider: Provedor de tradução ('gemini' ou 'claude')
         api_key: Chave da API (ou usa variável de ambiente)
         skip_translation: Se True, pula tradução (apenas testa parser + Word)
@@ -39,8 +42,14 @@ def full_pipeline_test(
         print(f"[ERRO] Arquivo não encontrado: {html_file}")
         return
 
+    # Gerar nome do HTML se não especificado
+    if output_html is None:
+        base_name = os.path.splitext(output_word)[0]
+        output_html = f"{base_name}.html"
+
     print(f"Entrada: {html_file}")
-    print(f"Saída: {output_word}")
+    print(f"Saída Word: {output_word}")
+    print(f"Saída HTML: {output_html}")
     print(f"Tradução: {'SIM' if not skip_translation else 'NÃO (apenas teste)'}\n")
 
     # ========================================================================
@@ -101,10 +110,30 @@ def full_pipeline_test(
         print(f"{'─'*80}\n")
 
     # ========================================================================
-    # PASSO 3: GERAR WORD
+    # PASSO 3: GERAR HTML
     # ========================================================================
     print(f"{'─'*80}")
-    print(f"PASSO 3: Gerando documento Word...")
+    print(f"PASSO 3: Gerando HTML traduzido...")
+    print(f"{'─'*80}\n")
+
+    try:
+        html_gen = HtmlGenerator()
+        html_gen.generate_html(parsed_doc, output_html)
+
+        print(f"[OK] HTML traduzido gerado com sucesso!")
+        print(f"     Arquivo: {output_html}\n")
+
+    except Exception as e:
+        print(f"[ERRO] Falha ao gerar HTML: {str(e)}\n")
+        import traceback
+        traceback.print_exc()
+        return
+
+    # ========================================================================
+    # PASSO 4: GERAR WORD
+    # ========================================================================
+    print(f"{'─'*80}")
+    print(f"PASSO 4: Gerando documento Word...")
     print(f"{'─'*80}\n")
 
     try:
@@ -132,8 +161,9 @@ def full_pipeline_test(
         print(f"  2. Tradução: {parsed_doc.stats['english_segments'] + parsed_doc.stats['gloss_segments']} segmentos")
     else:
         print(f"  2. Tradução: PULADA (modo teste)")
-    print(f"  3. Word gerado: {output_word}")
-    print(f"\nAbra o arquivo Word para ver o resultado!")
+    print(f"  3. HTML traduzido: {output_html}")
+    print(f"  4. Word gerado: {output_word}")
+    print(f"\nAbra os arquivos para ver o resultado!")
     print(f"{'='*80}\n")
 
 
@@ -152,6 +182,10 @@ def main():
         "--output",
         default="output.docx",
         help="Arquivo Word de saída (padrão: output.docx)"
+    )
+    parser.add_argument(
+        "--output-html",
+        help="Arquivo HTML de saída (padrão: mesmo nome que --output com .html)"
     )
     parser.add_argument(
         "--provider",
@@ -175,6 +209,7 @@ def main():
     full_pipeline_test(
         html_file=args.html_file,
         output_word=args.output,
+        output_html=args.output_html,
         provider=args.provider,
         api_key=args.api_key,
         skip_translation=args.skip_translation
@@ -188,12 +223,14 @@ if __name__ == "__main__":
         print("PIPELINE COMPLETO - Latin Grammar Translator")
         print("="*80)
         print("\nModo de uso:")
-        print("\n1. Teste rápido SEM tradução (apenas parser + Word):")
+        print("\n1. Teste rápido SEM tradução (apenas parser + HTML + Word):")
         print("   python test_full_pipeline.py --skip-translation")
         print("\n2. Pipeline completo COM tradução:")
         print("   python test_full_pipeline.py --output resultado.docx")
         print("\n3. Arquivo específico:")
         print("   python test_full_pipeline.py ../Resources/inflection.htm --output inflection.docx")
+        print("\n4. Especificar saída HTML customizada:")
+        print("   python test_full_pipeline.py --output result.docx --output-html custom.html")
         print("\nVariáveis de ambiente:")
         print("  Windows: set GEMINI_API_KEY=sua_chave")
         print("  Linux:   export GEMINI_API_KEY=sua_chave")
