@@ -1,0 +1,105 @@
+{
+  "name": "Modern",
+  "description": "Clean modern layout with sans-serif fonts and tight spacing",
+  "pageLayout": {
+    "pageSize": "A4",
+    "mirroredMargins": false,
+    "marginInner": 2.5,
+    "marginOuter": 2.5,
+    "marginTop": 2.0,
+    "marginBottom": 2.0,
+    "marginHeader": 1.0,
+    "marginFooter": 1.0,
+    "orientation": "portrait"
+  },
+  "styles": {
+    "normal": {
+      "fontFamily": "Calibri",
+      "fontSize": 11,
+      "lineSpacing": 1.0,
+      "alignment": "left"
+    },
+    "heading1": {
+      "fontFamily": "Calibri",
+      "fontSize": 20,
+      "bold": true,
+      "color": "2E75B6",
+      "alignment": "left",
+      "spaceBefore": 18,
+      "spaceAfter": 6
+    },
+    "heading2": {
+      "fontFamily": "Calibri",
+      "fontSize": 16,
+      "bold": true,
+      "color": "2E75B6",
+      "alignment": "left",
+      "spaceBefore": 12,
+      "spaceAfter": 4
+    },
+    "heading3": {
+      "fontFamily": "Calibri",
+      "fontSize": 14,
+      "bold": true,
+      "color": "5B9BD5",
+      "alignment": "left",
+      "spaceBefore": 10,
+      "spaceAfter": 4
+    },
+    "heading4": {
+      "fontFamily": "Calibri",
+      "fontSize": 12,
+      "bold": true,
+      "color": "5B9BD5",
+      "alignment": "left",
+      "spaceBefore": 8,
+      "spaceAfter": 4
+    },
+    "latinText": {
+      "fontFamily": "Calibri",
+      "fontSize": 11,
+      "italic": true,
+      "color": "404040"
+    },
+    "gloss": {
+      "fontFamily": "Calibri",
+      "fontSize": 10,
+      "italic": true,
+      "color": "595959"
+    },
+    "note": {
+      "fontFamily": "Calibri",
+      "fontSize": 9,
+      "indentLeft": 0.5,
+      "spaceAfter": 4,
+      "color": "7F7F7F"
+    },
+    "sectionNumber": {
+      "fontFamily": "Calibri",
+      "fontSize": 11,
+      "bold": true,
+      "color": "2E75B6"
+    },
+    "tableHeader": {
+      "fontFamily": "Calibri",
+      "fontSize": 10,
+      "bold": true,
+      "alignment": "center",
+      "backgroundColor": "DEEBF7"
+    },
+    "tableCell": {
+      "fontFamily": "Calibri",
+      "fontSize": 10
+    },
+    "blockquote": {
+      "fontFamily": "Calibri",
+      "fontSize": 10,
+      "italic": true,
+      "indentLeft": 1.5,
+      "indentRight": 1.5,
+      "spaceBefore": 4,
+      "spaceAfter": 4,
+      "color": "595959"
+    }
+  }
+}

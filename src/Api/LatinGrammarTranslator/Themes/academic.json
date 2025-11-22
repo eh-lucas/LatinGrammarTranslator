@@ -1,0 +1,99 @@
+{
+  "name": "Academic",
+  "description": "Traditional academic book layout with serif fonts and generous spacing",
+  "pageLayout": {
+    "pageSize": "A4",
+    "mirroredMargins": true,
+    "marginInner": 3.0,
+    "marginOuter": 2.0,
+    "marginTop": 2.5,
+    "marginBottom": 2.5,
+    "marginHeader": 1.25,
+    "marginFooter": 1.25,
+    "orientation": "portrait"
+  },
+  "styles": {
+    "normal": {
+      "fontFamily": "Times New Roman",
+      "fontSize": 12,
+      "lineSpacing": 1.15,
+      "alignment": "justify"
+    },
+    "heading1": {
+      "fontFamily": "Times New Roman",
+      "fontSize": 18,
+      "bold": true,
+      "alignment": "center",
+      "spaceBefore": 24,
+      "spaceAfter": 12
+    },
+    "heading2": {
+      "fontFamily": "Times New Roman",
+      "fontSize": 16,
+      "bold": true,
+      "alignment": "left",
+      "spaceBefore": 18,
+      "spaceAfter": 6
+    },
+    "heading3": {
+      "fontFamily": "Times New Roman",
+      "fontSize": 14,
+      "bold": true,
+      "alignment": "left",
+      "spaceBefore": 12,
+      "spaceAfter": 6
+    },
+    "heading4": {
+      "fontFamily": "Times New Roman",
+      "fontSize": 12,
+      "bold": true,
+      "italic": true,
+      "alignment": "left",
+      "spaceBefore": 12,
+      "spaceAfter": 6
+    },
+    "latinText": {
+      "fontFamily": "Times New Roman",
+      "fontSize": 12,
+      "italic": true
+    },
+    "gloss": {
+      "fontFamily": "Times New Roman",
+      "fontSize": 11,
+      "italic": true,
+      "color": "404040"
+    },
+    "note": {
+      "fontFamily": "Times New Roman",
+      "fontSize": 10,
+      "indentLeft": 1.0,
+      "spaceAfter": 6
+    },
+    "sectionNumber": {
+      "fontFamily": "Times New Roman",
+      "fontSize": 12,
+      "bold": true,
+      "color": "1F4E78"
+    },
+    "tableHeader": {
+      "fontFamily": "Times New Roman",
+      "fontSize": 11,
+      "bold": true,
+      "alignment": "center",
+      "backgroundColar": "D9E2F3"
+    },
+    "tableCell": {
+      "fontFamily": "Times New Roman",
+      "fontSize": 11
+    },
+    "blockquote": {
+      "fontFamily": "Times New Roman",
+      "fontSize": 11,
+      "italic": true,
+      "indentLeft": 2.0,
+      "indentRight": 2.0,
+      "spaceBefore": 6,
+      "spaceAfter": 6
+    }
+  }
+}

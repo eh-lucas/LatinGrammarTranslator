@@ -1,0 +1,99 @@
+{
+  "name": "Classic",
+  "description": "Traditional 19th century book style with elegant serif fonts",
+  "pageLayout": {
+    "pageSize": "A4",
+    "mirroredMargins": true,
+    "marginInner": 3.5,
+    "marginOuter": 2.5,
+    "marginTop": 3.0,
+    "marginBottom": 3.0,
+    "marginHeader": 1.5,
+    "marginFooter": 1.5,
+    "orientation": "portrait"
+  },
+  "styles": {
+    "normal": {
+      "fontFamily": "Garamond",
+      "fontSize": 12,
+      "lineSpacing": 1.25,
+      "alignment": "justify"
+    },
+    "heading1": {
+      "fontFamily": "Garamond",
+      "fontSize": 20,
+      "bold": true,
+      "alignment": "center",
+      "spaceBefore": 36,
+      "spaceAfter": 18
+    },
+    "heading2": {
+      "fontFamily": "Garamond",
+      "fontSize": 16,
+      "bold": true,
+      "alignment": "center",
+      "spaceBefore": 24,
+      "spaceAfter": 12
+    },
+    "heading3": {
+      "fontFamily": "Garamond",
+      "fontSize": 14,
+      "bold": true,
+      "italic": true,
+      "alignment": "left",
+      "spaceBefore": 18,
+      "spaceAfter": 6
+    },
+    "heading4": {
+      "fontFamily": "Garamond",
+      "fontSize": 12,
+      "bold": true,
+      "italic": true,
+      "alignment": "left",
+      "spaceBefore": 12,
+      "spaceAfter": 6
+    },
+    "latinText": {
+      "fontFamily": "Garamond",
+      "fontSize": 12,
+      "italic": true
+    },
+    "gloss": {
+      "fontFamily": "Garamond",
+      "fontSize": 11,
+      "italic": true,
+      "color": "3A3A3A"
+    },
+    "note": {
+      "fontFamily": "Garamond",
+      "fontSize": 10,
+      "indentLeft": 1.5,
+      "spaceAfter": 8
+    },
+    "sectionNumber": {
+      "fontFamily": "Garamond",
+      "fontSize": 12,
+      "bold": true
+    },
+    "tableHeader": {
+      "fontFamily": "Garamond",
+      "fontSize": 11,
+      "bold": true,
+      "alignment": "center",
+      "backgroundColor": "F2F2F2"
+    },
+    "tableCell": {
+      "fontFamily": "Garamond",
+      "fontSize": 11
+    },
+    "blockquote": {
+      "fontFamily": "Garamond",
+      "fontSize": 11,
+      "italic": true,
+      "indentLeft": 2.5,
+      "indentRight": 2.5,
+      "spaceBefore": 12,
+      "spaceAfter": 12
+    }
+  }
+}

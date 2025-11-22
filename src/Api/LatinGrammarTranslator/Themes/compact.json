@@ -1,0 +1,98 @@
+{
+  "name": "Compact",
+  "description": "Space-efficient layout with minimal margins and tight spacing",
+  "pageLayout": {
+    "pageSize": "A4",
+    "mirroredMargins": false,
+    "marginInner": 1.5,
+    "marginOuter": 1.5,
+    "marginTop": 1.5,
+    "marginBottom": 1.5,
+    "marginHeader": 0.75,
+    "marginFooter": 0.75,
+    "orientation": "portrait"
+  },
+  "styles": {
+    "normal": {
+      "fontFamily": "Arial",
+      "fontSize": 10,
+      "lineSpacing": 1.0,
+      "alignment": "justify"
+    },
+    "heading1": {
+      "fontFamily": "Arial",
+      "fontSize": 14,
+      "bold": true,
+      "alignment": "left",
+      "spaceBefore": 12,
+      "spaceAfter": 4
+    },
+    "heading2": {
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "bold": true,
+      "alignment": "left",
+      "spaceBefore": 10,
+      "spaceAfter": 3
+    },
+    "heading3": {
+      "fontFamily": "Arial",
+      "fontSize": 11,
+      "bold": true,
+      "alignment": "left",
+      "spaceBefore": 8,
+      "spaceAfter": 2
+    },
+    "heading4": {
+      "fontFamily": "Arial",
+      "fontSize": 10,
+      "bold": true,
+      "italic": true,
+      "alignment": "left",
+      "spaceBefore": 6,
+      "spaceAfter": 2
+    },
+    "latinText": {
+      "fontFamily": "Arial",
+      "fontSize": 10,
+      "italic": true
+    },
+    "gloss": {
+      "fontFamily": "Arial",
+      "fontSize": 9,
+      "italic": true,
+      "color": "404040"
+    },
+    "note": {
+      "fontFamily": "Arial",
+      "fontSize": 8,
+      "indentLeft": 0.5,
+      "spaceAfter": 2
+    },
+    "sectionNumber": {
+      "fontFamily": "Arial",
+      "fontSize": 10,
+      "bold": true
+    },
+    "tableHeader": {
+      "fontFamily": "Arial",
+      "fontSize": 9,
+      "bold": true,
+      "alignment": "center",
+      "backgroundColor": "E7E6E6"
+    },
+    "tableCell": {
+      "fontFamily": "Arial",
+      "fontSize": 9
+    },
+    "blockquote": {
+      "fontFamily": "Arial",
+      "fontSize": 9,
+      "italic": true,
+      "indentLeft": 1.0,
+      "indentRight": 1.0,
+      "spaceBefore": 3,
+      "spaceAfter": 3
+    }
+  }
+}
